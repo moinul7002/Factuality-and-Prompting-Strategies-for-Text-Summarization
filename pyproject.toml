@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factual-consistency-evaluation"
+version = "0.1.0"
+description = "Reproducible evaluation framework for factual consistency in automated text summarization"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Md Moinul Islam"},
+  {name = "Mourad Oussalah"},
+]
+dependencies = [
+  "numpy>=1.26,<3",
+  "nltk>=3.8,<4",
+  "openai>=1.35,<2",
+  "pandas>=2.2,<3",
+  "python-dotenv>=1,<2",
+  "rank-bm25>=0.2.2,<1",
+  "sentence-transformers>=3,<4",
+  "scikit-learn>=1.5,<2",
+  "spacy>=3.7,<4",
+  "torch>=2.3,<3",
+  "tqdm>=4.66,<5",
+  "transformers>=4.42,<5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+include = ["factscore*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

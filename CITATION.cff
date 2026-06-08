@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Factual Consistency Evaluation"
+type: software
+authors:
+  - family-names: Islam
+    given-names: Md Moinul
+  - family-names: Oussalah
+    given-names: Mourad
+version: 0.1.0
+date-released: 2026-06-08
+preferred-citation:
+  type: article
+  title: "A Framework for Evaluating Factual Consistency in Automated Text Summarization with Large Language Models and Prompting Strategies"
+  authors:
+    - family-names: Islam
+      given-names: Md Moinul
+    - family-names: Oussalah
+      given-names: Mourad
+  journal: Neural Networks
+  year: 2026
+  start: 109160
+  doi: 10.1016/j.neunet.2026.109160
+  url: "https://www.sciencedirect.com/science/article/pii/S0893608026006210"
