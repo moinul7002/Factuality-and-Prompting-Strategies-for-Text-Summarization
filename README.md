@@ -1,4 +1,4 @@
-# Factual Consistency Evaluation
+## A Framework for Evaluating Factual Consistency in Automated Text Summarization with Large Language Models and Prompting Strategies
 
 Reproducible code for evaluating factual consistency in automated text
 summarization across prompting strategies, language models, datasets, and
